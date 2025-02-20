@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    color: #f0f8ff3;
+}
+*{
+    font-family:monospace;
+    font-size: 15px;
+}
+
+
+header{
+    background-color: #2196f3;
+   
+    height: 100vh;
+    
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 3rem;
+    color: #2196f3;
+    flex-direction: row;
+}
+header h1{
+    color: white;
+    text-align: center;
+}
+form div{
+ margin: 7px 0;
+}
+.button{
+    top: 20px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 15px;
+    
+}
+.button:hover{
+    color: aliceblue;
+    background-color: darkblue;
+}
+img{
+    height: 300px;
+}
+main{
+    padding: 20px;
+}
+section{
+    height: 100vh;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#contact{
+    align-items: center;
+}
+
+
+.sub{
+    
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(207, 90%, 54%);
+    
+}
+.sub:hover{
+    
+    background-color: rgb(5, 199, 252);
+}
+.res{
+    
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(8, 90%, 49%);
+    
+}
+.res:hover{
+    
+    background-color: rgba(252, 34, 5, 0.486);
+}
+
+.input{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    height: 25px;
+}
+.FixedButton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: #2196f3;
+}
+.FixedButton:hover{
+    background-color: rgb(25, 155, 202);
+}
+footer{
+    height: 130px;
+    background-color: black;
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer p{
+    font-size: 20px;
+}
+.icon a{
+    text-decoration: none;
+    color: aliceblue; 
+}
+.icon ion-icon{
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+.icon ion-icon:hover{
+    color: aqua;
+}
